@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
+double dva_drugara_dobra_stara_oduzimaju(double broj1, double broj2)
+{
+    return broj1 - broj2;
+}
+
 int saberi(int x, int y)
 {
     return x + y;
