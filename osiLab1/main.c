@@ -48,10 +48,15 @@ int addnNumbers(int n)
     return rez;
 }
 
-double divide(double x, double y)
+double podijeli(double x, double y)
 {
     if(y!=0)
         return x/y;
+}
+
+double pomnozi(double x, double y)
+{
+    return x * y;
 }
 
 int main()
@@ -80,10 +85,10 @@ int main()
             oduzimanje(broj1,broj2);
             break;
         case 3:
-            mnozenje(broj1,broj2);
+            pomnozi(broj1,broj2);
             break;
         case 4:
-            dijeljenje(broj1,broj2);
+            podijeli(broj1,broj2);
             break;
         default: break;
 
