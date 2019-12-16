@@ -2,9 +2,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-double dva_drugara_dobra_stara_oduzimaju(double broj1, double broj2)
+double oduzimanje(double broj1, double broj2)
 {
     return broj1 - broj2;
+}
+int faktorijel(int n)
+{
+    int i=1, fakt=1;
+
+    for(i;i<=n;i++)
+        fakt*=i;
+    return fakt;
 }
 
 int saberi(int x, int y)
