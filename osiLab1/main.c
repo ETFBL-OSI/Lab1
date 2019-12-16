@@ -68,7 +68,7 @@ int main()
     switch(opcija)
     {
         case 1:
-            sabiranje(broj1,broj2);
+            saberi(broj1,broj2);
             break;
         case 2:
             oduzimanje(broj1,broj2);
