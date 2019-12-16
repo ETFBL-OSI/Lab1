@@ -36,5 +36,37 @@ int addnNumbers(unsigned int n)
 int main()
 {
     //test
+
+    printf("Izaberi->\n 1: sabiranje\n 2:oduzimanje\n 3:mnozenje\n 4:dijeljenje");
+    int opcija;
+
+    do
+    {
+        scanf("%d",&opcija);
+    }while(opcija<1 || opcija>4);
+
+    printf("Unesi dva broja->");
+    double broj1, broj2;
+    scanf("%d %d", &broj1, &broj2);
+
+
+    switch(opcija)
+    {
+        case 1:
+            sabiranje(broj1,broj2);
+            break;
+        case 2:
+            oduzimanje(broj1,broj2);
+            break;
+        case 3:
+            mnozenje(broj1,broj2);
+            break;
+        case 4:
+            dijeljenje(broj1,broj2);
+            break;
+        default: break;
+
+    }
+
     return 0;
 }
