@@ -19,6 +19,14 @@ int saberi(int x, int y)
 {
     return x + y;
 }
+int mnozin(int *niz,int n)
+{
+    int p=1;
+    int i;
+    for( i=0;i<n;i++)
+        p=p*niz[i];
+    return p;
+}
 
 double korijen(int x)
 {
@@ -44,6 +52,7 @@ int addnNumbers(int n)
 
 int main()
 {
+<<<<<<< HEAD
     //test
 
     printf("Izaberi->\n 1: sabiranje\n 2:oduzimanje\n 3:mnozenje\n 4:dijeljenje");
@@ -76,6 +85,8 @@ int main()
         default: break;
 
     }
+=======
+>>>>>>> Mnozenje niza
 
     return 0;
 }
