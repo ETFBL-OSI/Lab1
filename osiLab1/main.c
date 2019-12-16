@@ -15,7 +15,7 @@ int saberi(int x, int y)
 double korijen(int x)
 {
     return sqrt(x);
-
+}
 
 int addnNumbers(int n)
 {
