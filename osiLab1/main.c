@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-void saberi(int x, int y)
+int saberi(int x, int y)
 {
     return x + y;
 }
 
+double korijen(int x)
+{
+    return sqrt(x);
+}
+
 int main()
 {
-    printf("Hello world!\n");
     return 0;
 }
