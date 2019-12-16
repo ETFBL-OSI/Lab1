@@ -48,6 +48,12 @@ int addnNumbers(int n)
     return rez;
 }
 
+double divide(double x, double y)
+{
+    if(y!=0)
+        return x/y;
+}
+
 int main()
 {
     //test
