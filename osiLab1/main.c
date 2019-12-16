@@ -10,7 +10,7 @@ void saberi(int x, int y)
     return x + y;
 }
 
-//sabiranje n brojeva
+
 
 int addnNumbers(int n)
 {
