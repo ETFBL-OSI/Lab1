@@ -10,8 +10,25 @@ void saberi(int x, int y)
     return x + y;
 }
 
+//sabiranje n brojeva
+
+int addnNumbers(int n)
+{
+
+    int rez = 0;
+    int i;
+    for(i = 0; i < n; i++)
+    {
+        int temp;
+        printf("%d: ", i+1);
+        scanf("%d", &temp);
+        rez += temp;
+    }
+
+    return rez;
+}
+
 int main()
 {
-    printf("Hello world!\n");
     return 0;
 }
