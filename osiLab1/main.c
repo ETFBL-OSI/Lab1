@@ -24,6 +24,12 @@ double korijen(int x)
 {
     return sqrt(x);
 }
+    double stepenovanje(double a,int stepen)
+    {
+    return pow(a,stepen);
+    }
+
+
 
 int addnNumbers(int n)
 {
