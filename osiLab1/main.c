@@ -17,9 +17,10 @@ double korijen(int x)
     return sqrt(x);
 }
 
-int addnNumbers(unsigned int n)
+int addnNumbers(int n)
 {
-
+    if(n < 0)
+        return 0;
     int rez = 0;
     int i;
     for(i = 0; i < n; i++)

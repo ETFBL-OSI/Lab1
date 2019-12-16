@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576489557 source:c:\users\student\desktop\balta stefan osi\lab1\osilab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
