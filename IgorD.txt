@@ -1,4 +1,5 @@
 Test lab
+<<<<<<< HEAD
 
 
 
@@ -14,4 +15,7 @@ treca linija nova a
 
 
 
+=======
+Nova izmjena
+>>>>>>> f0765d32e25e1aad608f41b39bed952782a38723
 ala
