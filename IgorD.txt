@@ -1,6 +1,27 @@
 Test lab
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nesto se desilo woho
 =======
+=======
+
+
+
+
+
+
+
+treca linija nova a
+
+
+
+
+
+
+
+=======
+Nova izmjena
+>>>>>>> f0765d32e25e1aad608f41b39bed952782a38723
+>>>>>>> 7e86d1d4c18bb21e5c70fba1a41699002e34f73f
 ala
 >>>>>>> 29a7328593c2a915d5ee5cb6c613d3333837aded
