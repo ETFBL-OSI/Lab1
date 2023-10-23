@@ -1,2 +1,6 @@
 Test lab
+<<<<<<< HEAD
 Nesto se desilo woho
+=======
+ala
+>>>>>>> 29a7328593c2a915d5ee5cb6c613d3333837aded
