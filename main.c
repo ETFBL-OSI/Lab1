@@ -23,4 +23,3 @@ int faktorijel(int n){
 
 int main(){
 }
-
