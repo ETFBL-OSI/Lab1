@@ -7,6 +7,3 @@ int faktorijel(int n){
     }
     return s;
 }
-
-int main(){
-}
