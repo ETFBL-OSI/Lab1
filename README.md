@@ -1,2 +1,2 @@
 # Lab1
-Aleksa Jankovic
+fajl procitaj
