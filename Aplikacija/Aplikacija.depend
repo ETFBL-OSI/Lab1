@@ -1,5 +1,14 @@
 # depslib dependency file v1.0
+190 <<<<<<< HEAD
+
+1731325688 source:c:\users\student\desktop\markor\aplikacija\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
 1731324853 source:c:\users\student\documents\lab1\aplikacija\main.c
+
+1731324853 88d83c8043afca4e02bfdb992bc30058a340f
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
