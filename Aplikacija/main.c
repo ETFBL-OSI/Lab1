@@ -2,9 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
-float korijen(const float n){
+
+float korijen(float n){
     return (float)sqrt(n);
 }
+
+
+
 
     double oduzimanje2Broja(double x, double y) {
     return x - y;
