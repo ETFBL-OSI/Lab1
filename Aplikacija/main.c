@@ -72,6 +72,12 @@ for(int i=0;i<n;i++){
     printf("Proizvod %d brojeva je:%d\n",n,proizvod);
 return proizvod;
 }
+
+int OstatakDivision(int djelilac, int djeljenik) {
+
+    return djelilac % djeljenik;
+}
+
 int main()
 {
 
@@ -88,7 +94,7 @@ int main()
    // const float toSqrt = 625;
     printf("Korijen broja %.1f: %.1f\n", toSqrt, sqrt(toSqrt));
     printf("%lf\n", oduzimanje2Broja(4, 3));
-
+    printf("Ostatak je: %i\n", OstatakDivision(10, 3));
     printf("Hello world!\n");
 
     printf("Unesite n: ");
