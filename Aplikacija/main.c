@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "SabiranjeDvaBroja.c"
 
 <<<<<<< HEAD
     double oduzimanje2Broja(double x, double y) {
@@ -14,6 +15,7 @@ int sabiranje_prvih_n(int n) {
 int main()
 {
     printf("%lf\n", oduzimanje2Broja(4, 3));
+    printf("%lf\n", sabiranjeDvaBroja(1.2, 2.3));
     printf("Hello world!\n");
     return 0;
 }
