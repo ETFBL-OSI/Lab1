@@ -1,6 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <stdarg.h>
+
+int find_min(int n, ...) {
+    va_list args;
+    va_start(args, n); 
+
+    int min = va_arg(args, int);  
+
+    for (int i = 1; i < n; i++) {
+        int current = va_arg(args, int);
+        if (current < min) {
+            min = current;  
+        }
+    }
+
+    va_end(args);  
+    return min;
+}
 
 float korijen(float n){
     return (float)sqrt(n);
