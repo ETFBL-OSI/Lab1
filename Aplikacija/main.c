@@ -13,6 +13,7 @@ int sabiranje_prvih_n(int n) {
 
 int main()
 {
+    printf("%lf\n", oduzimanje2Broja(4, 3));
     printf("Hello world!\n");
     return 0;
 }
