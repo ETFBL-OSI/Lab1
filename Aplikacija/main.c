@@ -3,20 +3,28 @@
 #include <math.h>
 #include <stdarg.h>
 
+int najveci_n(int n, int *niz){
+    int max=niz[0];
+    for(int i=1;i<n;i++) if(niz[i]>max) max=niz[i];
+
+    return max;
+}
+
+
 int find_min(int n, ...) {
     va_list args;
-    va_start(args, n); 
+    va_start(args, n);
 
-    int min = va_arg(args, int);  
+    int min = va_arg(args, int);
 
     for (int i = 1; i < n; i++) {
         int current = va_arg(args, int);
         if (current < min) {
-            min = current;  
+            min = current;
         }
     }
 
-    va_end(args);  
+    va_end(args);
     return min;
 }
 
@@ -36,7 +44,10 @@ int sabiranje_prvih_n(int n) {
     return (n + 1) * n / 2;
 }
 
-
+float djeli(float a, float b)
+{
+    return a/b;
+}
 
 
 int mnozenjenbrojeva(int n){
