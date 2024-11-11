@@ -44,7 +44,10 @@ int sabiranje_prvih_n(int n) {
     return (n + 1) * n / 2;
 }
 
-
+float djeli(float a, float b)
+{
+    return a/b;
+}
 
 
 int mnozenjenbrojeva(int n){
