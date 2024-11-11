@@ -3,20 +3,23 @@
 #include <math.h>
 
 
-float korijen(float n){
+float korijen(const float n){
     return (float)sqrt(n);
 }
 
 
-
-
-    double oduzimanje2Broja(double x, double y) {
+double procenat_broja(double broj, double procenat){
+    return broj * procenat / (double)100;
+}
+double oduzimanje2Broja(double x, double y) {
     return x - y;
 }
-
 int sabiranje_prvih_n(int n) {
     return (n + 1) * n / 2;
 }
+
+
+
 
 int mnozenjenbrojeva(int n){
     printf("Mnozenje n brojeva\n");
@@ -35,9 +38,17 @@ return proizvod;
 int main()
 {
 
+
     mnozenjenbrojeva(5);
 
     const float toSqrt = 625;
+    printf("Korijen broja %.1f: %.1f\n", toSqrt, sqrt(toSqrt));
+    printf("%lf\n", oduzimanje2Broja(4, 3));
+
+    const float n = 625;
+    printf("%.1f\n", sqrt(n));
+    printf("Procenat broja je: %.2lf ", procenat_broja(10,50));
+   // const float toSqrt = 625;
     printf("Korijen broja %.1f: %.1f\n", toSqrt, sqrt(toSqrt));
     printf("%lf\n", oduzimanje2Broja(4, 3));
 
