@@ -1,8 +1,18 @@
 # Lab1
 <<<<<<< HEAD
+<<<<<<< HEAD
 topli pozdravi!
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Nije isto
+=======
+
+#Mjau mjau
+
+=======
+>>>>>>> da9f671c5004dcea67a79e5f974482241e6ae205
 
 Pozdrav Svijete!
 =======
