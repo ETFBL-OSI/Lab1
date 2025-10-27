@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 
 
 
 text
 
 đe si marko ljepoto u majke i ljubitelju grkinja
+=======
+text
+if(a>b)
+return 99999;
+>>>>>>> 8b66a3044913db02152da988fc11866c192ad716
